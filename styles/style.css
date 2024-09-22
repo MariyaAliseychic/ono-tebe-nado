@@ -1,1 +1,319 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    padding: 92px 24px 96px 24px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+
+}
+.header-menu {
+   list-style-type: circle;
+
+} 
+.menu {
+    display: flex;
+    width: 391px;
+    padding-top: 44px;
+    left: 26px;
+    border: 1px;
+    margin: auto;
+    gap: 30px;
+    justify-items:stretch;
+    padding-bottom: 40px;
+
+}
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+
+}
+.header-img {
+    width: 148px;
+    height: 105px;
+    left: 454px;
+
+}
+address {
+    margin-left: 184px;
+    font-family: Raleway, sans-serif;
+	border: 1px;
+	font-size: 18px;
+	font: inherit;
+    line-height: 25px;
+
+}
+.cover {
+    background-image: url(../images/lotus-flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 757px;
+
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    width: 100%;
+
+}
+.cover-title {
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 700;
+    padding:165px 50px 147px 50px;
+    height: 355px;
+    width: 1000px;
+
+}
+.cover-title-item {
+    display: flex;
+    letter-spacing: 30px;
+    word-spacing: 20px;
+    width: 1000px;
+}
+.aligned-text-center {
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+
+}
+.aligned-text-right {
+    display: flex;
+    justify-content: right;
+
+}
+.letter-spacing-extended {
+    letter-spacing:60px;
+
+}
+.no-letter-spacing {
+    letter-spacing: 0px;
+
+}
+.cover__description {
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 300px;
+    align-items:last baseline;
+    justify-content: space-between;
+    z-index:2;
+    padding-left: 78px;
+
+}
+.cover-description-text {
+    text-transform: uppercase;
+    font-size: 22px;
+    word-spacing: 20px;
+    font-weight: 400;
+
+}
+.bet-button {
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-right: 50px;
+    height: 51px;
+    font-weight: 500;
+    outline:solid;
+    outline-width: 1px;
+    text-align: center;
+    width: 256px;
+    height: 51px;
+
+}
+.lots {
+    padding-top: 179px;
+    padding-left:  24px;
+    padding-right: 24px;
+    height: 692px;
+   
+}
+.lots-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    line-height: 46.96px;
+    text-transform: uppercase;
+    padding-left: 40px ;
+
+}
+.lots-card-list {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    width: 100%;
+    z-index: 2;
+}
+.lots-card-list-item {
+    position: relative;
+
+}
+.card-title {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 51px 40px 0px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    z-index: 2;
+    position: relative;
+    text-decoration-thickness: 1px;
+    
+}
+.card-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 2;
+    position: relative;
+    
+}
+.card-text-film {
+    padding-top:240px;
+    
+}
+.card-text-picture {
+    padding-top: 95px;
+
+}
+.card-type-film {
+    background-image: url(../images/photo.png);
+    Width:334px;
+    Height:563px;
+    justify-content:space-between;
+
+}
+.card-type-book {
+    background-image: url(../images/photo\ \(1\).png);
+    Width:334px;
+    Height:563px;
+
+}
+.card-type-picture {
+    background-image: url(../images/photo\ \(2\).png);
+    Width:334px;
+    Height:563px;
+
+}
+.card-link {
+    align-items:center;
+    display: block;
+    width: 100%;
+
+}
+.lots-look-more-link {
+    text-decoration:underline;
+    font-size: 20px;
+    padding: 30px 820px 2px 40px;
+    font-weight: 400;
+
+}
+.about {
+    padding: 146px 24px 0px;
+ 
+}
+.about-logo {
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    grid-area: logo;
+    justify-items: center;
+    justify-self: center;
+
+}
+.about-logo-image {
+    width: 148px;
+    height: 114px;
+    margin: auto;
+
+}
+.about-colum {
+    display: grid;
+    padding-top: 215px;
+    padding-left:10px ;
+    width: 100%;
+    grid-template-columns: 320px 2fr ;
+    grid-template-rows: 240px 135px 200px;
+    grid-template-areas: 
+    "logo title"
+    " . text"
+    " . text-two";
+
+}
+.about-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    grid-area: title;
+    align-self: center;
+    padding-left: 30px;
+    padding-top: 2px;
+
+}
+.about-text-two {
+    grid-area: text-two;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    line-height: 24px;
+    padding-top: 15px;
+
+}
+.about-text {
+    grid-area: text;
+    font-size: 20px;
+    font-weight: 400;
+    align-self: center;
+    padding-left: 30px;
+    line-height: 24px;
+
+}
+.footer {
+    
+    display: grid;
+    font-size: 18px;
+    font-weight: 400;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    height: 98px;
+    justify-items: center;
+    padding-top: 165px;
+
+}
+.menuf {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 95px;
+
+}
+.netvorc {
+    list-style-type: none;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+
+}
+.address-footer {
+    grid-template-rows: 24px 24px 49px;
+    margin: auto;
+    justify-items:start;
+    line-height: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+
+}
+
+
+
