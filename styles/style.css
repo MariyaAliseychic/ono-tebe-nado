@@ -178,7 +178,7 @@ margin-right: 32px;
     font-size: 22px;
     z-index: 2;
     position: relative;
-    text-decoration-thickness: 1px;    
+    text-decoration-thickness: 1px;
 }
 
 .card-text {
@@ -187,11 +187,11 @@ margin-right: 32px;
     padding-left: 40px;
     padding-right: 40px;
     z-index: 2;
-    position: relative;    
+    position: relative;
 }
 
 .card-text-film {
-    padding-top: 240px;    
+    padding-top: 240px;
 }
 
 .card-text-picture {
@@ -295,7 +295,7 @@ margin-right: 32px;
     word-spacing: 2px;
 }
 
-.footer {    
+.footer {
     display: grid;
     font-size: 18px;
     font-weight: 400;
